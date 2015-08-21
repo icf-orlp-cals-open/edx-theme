@@ -2,13 +2,13 @@
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="/navigation.html"/>
 
-<%! from microsite_configuration.templatetags.microsite import platform_name %>
+## <%! from microsite_configuration.templatetags.microsite import platform_name %>
 
 <%block name="navigation_top">
 </%block>
 
 <%block name="navigation_logo">
-  ${platform_name()}
+  <img src="${static.url('themes/ionisx/images/icf_asi_logo_sm.png')}" height="60" alt="Home Page" />
 </%block>
 
 ## When unauthenticated, only show the about page link

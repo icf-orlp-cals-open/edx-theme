@@ -8,13 +8,17 @@
         box-shadow: none;
         background: 0;
         border: none;
-        background-color: @color-primary;
+        background-image: url("../images/sunrise.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         margin: 0;
         padding: 60px 0;
 
         .outer-wrapper {
             .ionisx-container();
 
+            max-width: 760px;
             border-radius: @default-border-radius;
             padding-bottom: 15px;
             padding-top: 15px;
@@ -32,7 +36,6 @@
                 min-height: 0;
                 margin: 0;
                 padding: 0;
-
                 hgroup {
                     padding: 0;
                     transition: none;
@@ -115,6 +118,7 @@
             .make-lg-column(4);
 
             margin: 0;
+            margin-bottom: 80px;
             display: block;
             text-align: left;
 
@@ -123,15 +127,20 @@
             }
 
             .course {
-                box-shadow: none;
+                .material-depth-2;
                 background: none;
                 border-radius: 0;
                 background-color: @white;
                 border: 1px solid @white;
 
                 &:hover {
-                    box-shadow: none;
-                    border-color: @color-primary;
+                    // box-shadow: none;
+                    // border-color: @color-primary;
+                    @hover-transform: scale(1.0081048443, 1.0052631579);
+                    -ms-transform: @hover-transform;
+                    -webkit-transform: @hover-transform;
+                    transform: @hover-transform;
+                    .material-depth-3;
                 }
 
                 .inner-wrapper {
@@ -186,7 +195,6 @@
                         padding: 4px 8px;
                     }
                 }
-
             }
         }
     }

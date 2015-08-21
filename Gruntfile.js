@@ -146,7 +146,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'less',
         'autoprefixer',
-        'cssmin',
+        // 'cssmin',
         'bless',
         'imagemin',
         'copy'
