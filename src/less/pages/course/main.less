@@ -1,20 +1,23 @@
 .wrapper-course-material {
-    .size(100%, auto);
-
+    // .size(100%, auto);
+    .material-depth-1;
     margin: 0;
     padding: 0;
-    background: none;
+    background: #fafafa;
     border-radius: 0;
-    box-shadow: none;
+    height: initial;
+    // box-shadow: none;
 }
 
 .course-material {
+    // .container();
     .ionisx-container();
-
-    background: none;
+    background-color: #fafafa;
     box-shadow: none;
     border-radius: 0;
-    margin-top: @layout-top-spacing / 2;
+    margin-top: 0;
+    padding: 0;
+    
 
     .course-tabs {
         border-radius: 0;
@@ -44,22 +47,26 @@
             }
 
             a {
-                font: inherit;
-                color: inherit;
+                // font: inherit;
+                font-size: 15px;
+                color: #333;
                 font-weight: @headings-font-weight;
-                border-radius: @default-border-radius;
-                padding: 8px 12px;
+                padding: 16px 40px;
+                border-bottom: 2px solid #fafafa;
+                background: none;
+                text-transform: uppercase;
+                border-radius: 0;
 
                 &:hover {
-                    background-color: @white;
+                    border-bottom: 2px solid @color-tertiary;
+                    color: @color-tertiary;
                 }
 
                 &.active {
                     box-shadow: none;
                     text-shadow: none;
-                    background: none;
-                    background-color: @color-primary;
-                    color: @white;
+                    border-bottom: 2px solid @color-tertiary;
+                    color: @color-tertiary;
                 }
 
                 &.new-post-btn {
@@ -86,11 +93,13 @@
 
 .container {
     margin: 0;
-    padding: 0;
-
     .ionisx-container();
 
-    margin-top: @layout-top-spacing / 2;
+    padding: 0;
+
+    margin-top: @layout-top-spacing;
+    .material-depth-3;
+    background-color: @white;
 
     > div {
         .square(auto);

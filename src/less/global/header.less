@@ -15,7 +15,7 @@ header.global, header.global-new, header.global.slim {
         background-color: fadeout(@color-primary, 20%);
     }
 
-    > nav {
+    > nav.nav-wrapper {
         .ionisx-container();
 
         padding-top: 15px;
@@ -29,9 +29,11 @@ header.global, header.global-new, header.global.slim {
             &:before {
                 display: none;
             }
-
+            img {
+                height: 60px;
+            }
             a {
-                .size(@logo-img-width, 36px);
+                // .size(@logo-img-width, 36px);
                 .text-hide();
 
                 // background-image: url(@logo-img-path);

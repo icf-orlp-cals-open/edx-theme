@@ -28,12 +28,12 @@
         }
 
         #accordion {
-            font: inherit;
+            //font: inherit;
 
             .chapter {
                 border-radius: 0;
                 box-shadow: none;
-                border-bottom: 1px solid @color-border;
+                border-bottom: none; //1px solid @color-border;
                 padding: 0;
 
                 &:last-child {
@@ -41,15 +41,16 @@
                 }
 
                 &.is-open {
-                    font-weight: @headings-font-weight;
+                    font-weight: 400;
                 }
 
                 h3 {
                     font: inherit;
-                    padding: 0.6em 0.8em;
+                    padding: 5px 5px 5px 0;
 
                     .ui-accordion-header-icon {
-                        left: 0.6em;
+                        display: none;
+                        // left: 0.6em;
                     }
 
                     a {
@@ -63,28 +64,27 @@
                 }
 
                 ul {
-                    font: inherit;
+                    // font: inherit;
                     font-weight: 500;
                     background: none;
                     background-color: @white;
                     padding: 0.6em;
 
                     li {
-                        margin: 0 0 0.6em 0;
+                        margin: 0 0 0.6em 1em;
 
                         &:last-child {
-                            margin: 0;
+                            margin-bottom: 0;
                         }
 
                         a {
                             font: inherit;
-                            color: @color-primary;
                             background: none;
                             padding: 0.3em 0.5em;
-                            border-radius: @default-border-radius;
-                            border: 1px solid transparent;
+                            border-radius: 0;
+                            border: none; //1px solid transparent;
                             box-shadow: none;
-
+                            color: #333;
                             &:hover {
                                 border-color: @color-border;
                             }
@@ -119,8 +119,8 @@
 
                             a {
                                 border-color: @color-primary;
-                                background-color: @color-primary;
-                                color: @white;
+                                // background-color: @color-primary;
+                                color: @color-primary;
                             }
                         }
                     }
