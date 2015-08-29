@@ -74,8 +74,9 @@ section.home {
         z-index: 100;
         padding: 10px 40px;
         width: 100%;
-        background-color: @light-color;
+        background-color: @color-primary;
         h3 {
+          margin-top: 10px;
           font-weight: normal;
           font-size: 18px;
           font-family: sans-serif;
@@ -85,7 +86,7 @@ section.home {
     }
   }
   nav.icf-program-nav {
-    background-color:@color-tertiary;
+    background-color:@color-primary;
     position: relative;
     z-index: 0;
     padding: 20px 40px;
@@ -117,7 +118,10 @@ section.home {
     }
   }
 }
-
+header.global {
+  min-height: 92px;
+  .material-depth-1;
+}
 div.content-wrapper {
   >div.section-bkg-wrapper {
     >div.login-register {
@@ -125,7 +129,7 @@ div.content-wrapper {
       .material-depth-1;
       padding-bottom: 40px;
       button.action-primary {
-        background-color: @color-tertiary;
+        // background-color: @color-tertiary;
         border-radius: none;
         
       }

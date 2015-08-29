@@ -1,98 +1,111 @@
-> .find-courses {
+> section.find-courses {
     margin-top: @layout-top-spacing;
     background: none;
-
-    header {
-        display: none;
-    }
+    // header {
+    //     display: none;
+    // }
 
     .container {
         .ionisx-container();
     }
 
-    .courses {
+     section.courses-container >.courses {
+        .container-fluid;
         padding: 0;
         text-align: center;
         margin-left: -15px;
         margin-right: -15px;
 
-        .courses-listing-item {
-            .make-xs-column(12);
-            .make-sm-column(6);
-            .make-md-column(6);
-            .make-lg-column(4);
+        &.no-course-discovery ul.courses-listing {
+            .row;
 
-            margin: 0;
-            display: block;
-            text-align: left;
-
-            &:last-child {
-                margin: 0;
-            }
-
-            .course {
-                box-shadow: none;
-                background: none;
-                border-radius: 0;
-                background-color: @white;
-                border: 1px solid @white;
-
-                &:hover {
-                    
-                    // box-shadow: none;
-                    // border-color: @color-primary;
+            li.courses-listing-item {
+                &:nth-child(4n){
+                    clear: none;
+                    margin: inherit;
+                }
+                &:nth-child(5n){
+                    clear: inherit;
+                }
+                .make-xs-column(12);
+                .make-sm-column(6);
+                .make-md-column(6);
+                .make-lg-column(3);
+                
+                display: block;
+                text-align: left;
+                margin: 0 !important;
+                max-height: none;
+                &:last-child {
+                    margin: 0;
                 }
 
-                .inner-wrapper {
-                    border: 0 none;
+                .course {
 
-                    .course-preview {
-                        box-shadow: none;
-                        border-bottom: 1px solid @color-border;
-                        background: none;
-                        background-color: fadeout(@white, 10%);
+                    .material-depth-2;
 
-                        hgroup {
-                            width: 100%;
+                    background: none;
+                    border-radius: 0;
+                    background-color: @white;
+                    border: 1px solid @white;
 
-                            h2 {
-                                font-family: @font-family-sans-serif;
-                                font-size: 14px;
-                                font-weight: 600;
-                                text-shadow: none;
-                                color: @black;
+                    &:hover {
+                        
+                        // box-shadow: none;
+                        // border-color: @color-primary;
+                    }
+
+                    .inner-wrapper {
+                        border: 0 none;
+
+                        .course-preview {
+                            box-shadow: none;
+                            border-bottom: 1px solid @color-border;
+                            background: none;
+                            background-color: fadeout(@white, 10%);
+
+                            hgroup {
+                                width: 100%;
+
+                                h2 {
+                                    font-family: @font-family-sans-serif;
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    text-shadow: none;
+                                    color: @black;
+                                }
+                            }
+
+                            .info-link {
+                                display: none;
+                            }
+
+                            .course-number {
+                                display: none;
                             }
                         }
-
-                        .info-link {
-                            display: none;
-                        }
-
-                        .course-number {
-                            display: none;
-                        }
                     }
-                }
 
-                .status {
-                    display: none;
-                }
+                    .status {
+                        display: none;
+                    }
 
-                .meta-info {
-                    box-shadow: none;
-                    background: none;
-                    border: 0 none;
-                    background-color: fadeout(@black, 20%);
-                    border-radius: @default-border-radius;
-                    right: 5px;
-                    bottom: 5px;
+                    .meta-info {
+                        box-shadow: none;
+                        background: none;
+                        border: 0 none;
+                        background-color: fadeout(@black, 20%);
+                        border-radius: @default-border-radius;
+                        right: 5px;
+                        bottom: 5px;
 
-                    p {
-                        font: inherit;
-                        font-size: 0.9em;
-                        color: @white;
-                        margin: 0;
-                        padding: 4px 8px;
+                        p {
+                            font: inherit;
+                            font-size: 0.9em;
+                            color: @white;
+                            margin: 0;
+                            padding: 4px 8px;
+                        }
                     }
                 }
             }
