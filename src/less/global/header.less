@@ -71,21 +71,17 @@ header.global, header.global-new, header.global.slim {
             }
 
             a {
-                font: inherit;
+                // font: inherit;
+                font-size: 1.4em;
                 font-weight: 500;
                 letter-spacing: inherit;
-                padding: 0;
-                color: @color-background;
+                padding: 2px 10px;
+                color: @color-primary;
                 text-transform: none;
-                border: 0 none;
-
+                border: 2px solid transparent;
+                margin-top: 17px;
                 &:hover {
-                    color: @white;
-                }
-
-                &:focus {
-                    color: @white;
-                    text-decoration: underline;
+                    border: 2px solid @color-primary;
                 }
 
                 &.cta-register {
