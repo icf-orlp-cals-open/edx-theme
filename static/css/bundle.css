@@ -1,113 +1,113 @@
-@import url('bundle-blessed3.css?z=1444937179151');
-@import url('bundle-blessed2.css?z=1444937179151');
-@import url('bundle-blessed1.css?z=1444937179151');
+@import url('bundle-blessed3.css?z=1444945586696');
+@import url('bundle-blessed2.css?z=1444945586696');
+@import url('bundle-blessed1.css?z=1444945586696');
 
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled],
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled],
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled],
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button],
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled]:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled]:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled]:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled]:hover,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:hover,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:hover,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:hover,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled]:focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled.focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled.focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled.focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled.focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled].focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled].focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled].focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled].focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled]:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled]:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled]:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled]:active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled.active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled.active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled.active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled.active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled].active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled].active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled].active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled].active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].active {
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled],
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled],
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled],
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button],
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled]:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled]:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled]:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled]:hover,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:hover,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:hover,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:hover,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled]:focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled.focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled.focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled.focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled.focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled].focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled].focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled].focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled].focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled]:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled]:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled]:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled]:active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].disabled.active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].disabled.active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].disabled.active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].disabled.active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button][disabled].active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button][disabled].active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button][disabled].active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button][disabled].active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button].active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].active {
   background-color: #57a1f3;
   border-color: #ffffff;
 }
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button] .badge,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button] .badge,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button] .badge,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button] .badge {
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button] .badge,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button] .badge,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button] .badge,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button] .badge {
   color: #57a1f3;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
-  body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button],
-  body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button],
-  body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button],
-  body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button] {
+  body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button],
+  body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button],
+  body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button],
+  body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button] {
     white-space: normal;
   }
 }
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:focus {
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:focus {
   background-color: #57a1f3;
   color: #ffffff;
   border-color: #ffffff;
 }
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:focus,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:active,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:active {
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:focus,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:active,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:active {
   background: none;
   background-color: #ffffff;
   color: #57a1f3;
@@ -115,24 +115,24 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
   border-color: #57a1f3;
   outline: none;
 }
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:hover,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:hover {
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:hover,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:hover {
   background: none;
   background-color: #ffffff;
   color: #57a1f3;
   border-color: #57a1f3;
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content .member-list-widget .label,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content .member-list-widget .label,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 .member-list-widget .label,
-body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 .member-list-widget .label {
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content .member-list-widget .label,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content .member-list-widget .label,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 .member-list-widget .label,
+body.view-in-course .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 .member-list-widget .label {
   display: table-cell;
   border-radius: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body {
+body.view-in-course .content-wrapper .container > .discussion-body {
   margin-left: -15px;
   margin-right: -15px;
   margin-left: 0;
@@ -140,7 +140,7 @@ body.view-incourse .content-wrapper .container > .discussion-body {
   background-color: #ffffff;
   padding: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav {
+body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav {
   float: left;
   width: 100%;
   position: relative;
@@ -155,45 +155,45 @@ body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav {
   box-shadow: none;
 }
 @media (min-width: 768px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav {
+  body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav {
+  body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav {
     float: left;
     width: 33.33333333%;
   }
 }
 @media (min-width: 1200px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav {
+  body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav {
     float: left;
     width: 33.33333333%;
   }
 }
 @media (max-width: 991px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav {
+  body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav {
     border-right: 0 none;
     height: auto !important;
   }
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav a:hover {
+body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav a:hover {
   text-decoration: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav .forum-nav-header {
+body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav .forum-nav-header {
   background: none;
   background-color: #dddddd;
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav .forum-nav-search-input {
+body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav .forum-nav-search-input {
   font-size: 0.8em;
 }
 @media (max-width: 991px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .forum-nav .forum-nav-thread-list {
+  body.view-in-course .content-wrapper .container > .discussion-body > .forum-nav .forum-nav-thread-list {
     height: auto !important;
   }
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column {
+body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column {
   float: left;
   width: 100%;
   position: relative;
@@ -207,90 +207,90 @@ body.view-incourse .content-wrapper .container > .discussion-body > .discussion-
   box-shadow: none;
 }
 @media (min-width: 768px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column {
+  body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column {
+  body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column {
     float: left;
     width: 66.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column {
+  body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column {
     float: left;
     width: 66.66666667%;
   }
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column .discussion-article {
+body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column .discussion-article {
   background: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate {
+body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate {
   padding: 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate .home-header {
+body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate .home-header {
   border: 0 none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate .label {
+body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate .label {
   font: inherit;
   color: inherit;
   display: inline;
   padding: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate h1 {
+body.view-in-course .content-wrapper .container > .discussion-body > .discussion-column .discussion-article.blank-slate h1 {
   font: inherit;
   font-weight: 600;
   color: inherit;
   margin: 1em 0 0 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .forum-thread-main-wrapper {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .forum-thread-main-wrapper {
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post {
   background: none;
   border-radius: 0;
   padding: 15px 15px 5px 15px;
   border-bottom: 1px solid #dddddd;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .group-visibility-label {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .group-visibility-label {
   font: inherit;
   font-size: 12px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header h1 {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header h1 {
   font-size: 18px;
   font-weight: 600;
   color: #4392f1;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .posted-details {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .posted-details {
   font-size: 85%;
   color: #878787;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .posted-details .username {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .posted-details .username {
   font-weight: 600;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .user-label-staff {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .user-label-staff {
   background: none;
   background-color: #57a1f3;
   color: #ffffff;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post .post-context {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post .post-context {
   font-size: 12px;
   color: #878787;
   padding-top: 1em;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-count {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-count {
   font-size: 85%;
   color: #878787;
   margin: 10px 15px 0 15px;
   padding: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response {
   margin: 10px 15px 0 15px;
   padding: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
   width: auto;
   height: auto;
   font: inherit;
@@ -328,113 +328,113 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   border-color: #4392f1;
   font-size: 85%;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active.focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus {
   color: #333333;
   text-decoration: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active {
   outline: 0;
   background-image: none;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
   box-shadow: none;
 }
-abody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled,
-fieldset[disabled] abody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
+abody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled,
+fieldset[disabled] abody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
   pointer-events: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus {
   color: #ffffff;
   background-color: #1476ed;
   border-color: #bfbfbf;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover {
   color: #ffffff;
   background-color: #1476ed;
   border-color: #e0e0e0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
   color: #ffffff;
   background-color: #1476ed;
   border-color: #e0e0e0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active:hover,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active:focus,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active.focus,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active:hover,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active:focus,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active.focus,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus {
   color: #ffffff;
   background-color: #0f66ce;
   border-color: #bfbfbf;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
   background-image: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled]:hover,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled]:focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled].focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled]:active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled.active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled].active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled]:hover,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled]:focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled].focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled]:active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.disabled.active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn[disabled].active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn.active {
   background-color: #4392f1;
   border-color: #ffffff;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn .badge {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn .badge {
   color: #4392f1;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
-  body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
+  body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn {
     white-space: normal;
   }
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus {
   background-color: #4392f1;
   color: #ffffff;
   border-color: #ffffff;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:active {
   background: none;
   background-color: #ffffff;
   color: #4392f1;
@@ -442,18 +442,18 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   border-color: #4392f1;
   outline: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .add-response .add-response-btn:hover {
   background: none;
   background-color: #ffffff;
   color: #4392f1;
   border-color: #4392f1;
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .responses {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .responses {
   margin: 15px 15px 0 15px;
   padding: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response {
   margin: 0 0 15px 0;
   padding: 0;
   box-shadow: none;
@@ -461,77 +461,77 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   border: 1px solid #f7f7f7;
   border-radius: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response {
   background: none;
   padding: 10px 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header {
   padding-bottom: 10px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header .response-header-content,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header response-header-actions {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header .response-header-content,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header response-header-actions {
   width: auto;
   height: auto;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header .username {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header .username {
   font-size: inherit;
   font-weight: 600;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header .posted-details {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response header .posted-details {
   font-size: 12px;
   color: #878787;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-pagination {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-pagination {
   padding: 15px;
   box-shadow: none;
   background-color: #f7f7f7;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-pagination .response-display-count {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-pagination .response-display-count {
   padding: 0;
   color: #878787;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .discussion-reply-new {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .discussion-reply-new {
   padding: 15px 15px 0 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .discussion-reply-new h4 {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .discussion-reply-new h4 {
   font-weight: 600;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments {
   background: none;
   background-color: #ffffff;
   border-radius: 0;
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li {
   border: 0 none;
   border-bottom: 1px solid #f7f7f7;
   border-left: 3px solid #dddddd;
   font-size: 0.8em;
   padding: 10px 15px 5px 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li.new-comment {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li.new-comment {
   border: 0 none;
   font-size: inherit;
   padding: 15px 15px 0 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li.new-comment .comment-form {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li.new-comment .comment-form {
   padding: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li .posted-details {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li .posted-details {
   font-size: 11px;
   margin: 0;
   color: #878787;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li .posted-details .username {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li .posted-details .username {
   font-weight: 600;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel {
   width: auto;
   height: auto;
   min-width: 0;
   margin-bottom: 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea {
   -webkit-font-smoothing: auto;
   -webkit-appearance: none;
   background: none;
@@ -548,7 +548,7 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea + span:after {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea + span:after {
   display: inline-block;
   font-family: 'FontAwesome';
   font-size: 1.5em;
@@ -557,36 +557,36 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   top: 0.2em;
   right: 0.5em;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.valid-input {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.valid-input {
   border-color: #2ecc71;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.valid-input + span:after {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.valid-input + span:after {
   color: #2ecc71;
   content: '\f058';
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.invalid-input {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.invalid-input {
   border-color: #c0392b;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.invalid-input + span:after {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea.invalid-input + span:after {
   color: #c0392b;
   content: '\f057';
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:active {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:active {
   border-color: #4392f1;
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:focus + span:after,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:active + span:after {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:focus + span:after,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel textarea:active + span:after {
   color: #4392f1;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel .wmd-preview-container {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-panel .wmd-preview-container {
   width: auto;
   height: auto;
   box-shadow: none;
   border: 0 none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
   width: auto;
   height: auto;
   font: inherit;
@@ -625,113 +625,113 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   font-size: 0.9em;
   margin-bottom: 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active.focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus {
   color: #333333;
   text-decoration: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active {
   outline: 0;
   background-image: none;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
   box-shadow: none;
 }
-abody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled,
-fieldset[disabled] abody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
+abody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled,
+fieldset[disabled] abody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
   pointer-events: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus {
   color: #ffffff;
   background-color: #25a25a;
   border-color: #bfbfbf;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover {
   color: #ffffff;
   background-color: #25a25a;
   border-color: #e0e0e0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
   color: #ffffff;
   background-color: #25a25a;
   border-color: #e0e0e0;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active:hover,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active:focus,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active.focus,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active:hover,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active:focus,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active.focus,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus {
   color: #ffffff;
   background-color: #1e854a;
   border-color: #bfbfbf;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active,
+.open > .dropdown-togglebody.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
   background-image: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled],
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled]:hover,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled]:focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled].focus,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled]:active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled.active,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled].active,
-fieldset[disabled] body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled],
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled]:hover,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled]:focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled].focus,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled]:active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.disabled.active,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button[disabled].active,
+fieldset[disabled] body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button.active {
   background-color: #2ecc71;
   border-color: #ffffff;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button .badge {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button .badge {
   color: #2ecc71;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
-  body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
+  body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button {
     white-space: normal;
   }
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus {
   background-color: #2ecc71;
   color: #ffffff;
   border-color: #ffffff;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:focus,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:active {
   background: none;
   background-color: #ffffff;
   color: #2ecc71;
@@ -739,44 +739,44 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   border-color: #2ecc71;
   outline: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .control-button:hover {
   background: none;
   background-color: #ffffff;
   color: #2ecc71;
   border-color: #2ecc71;
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container h1,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-body h1,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .response-body h1,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container h2,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-body h2,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .response-body h2,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container h3,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-body h3,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .response-body h3,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container p,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-body p,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .response-body p {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container h1,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-body h1,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .response-body h1,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container h2,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-body h2,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .response-body h2,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container h3,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-body h3,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .response-body h3,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container p,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-body p,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .response-body p {
   font: inherit;
   color: inherit;
   letter-spacing: inherit;
   margin: 0 0 1em;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container blockquote,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-body blockquote,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .response-body blockquote {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container blockquote,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-body blockquote,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .response-body blockquote {
   background: none;
   font-size: inherit;
   border-radius: 0;
   padding: 5px 15px;
 }
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container blockquote p:last-child,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-body blockquote p:last-child,
-body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .response-body blockquote p:last-child {
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .wmd-preview-container blockquote p:last-child,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .post-body blockquote p:last-child,
+body.view-in-course .content-wrapper .container > .discussion-body .thread-wrapper .response-body blockquote p:last-child {
   margin: 0;
 }
-body.view-incourse .content-wrapper > .book-wrapper {
+body.view-in-course .content-wrapper > .book-wrapper {
   width: auto;
   height: auto;
   margin-right: auto;
@@ -792,33 +792,33 @@ body.view-incourse .content-wrapper > .book-wrapper {
   min-height: 80vh;
 }
 @media (min-width: 768px) {
-  body.view-incourse .content-wrapper > .book-wrapper {
+  body.view-in-course .content-wrapper > .book-wrapper {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  body.view-incourse .content-wrapper > .book-wrapper {
+  body.view-in-course .content-wrapper > .book-wrapper {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  body.view-incourse .content-wrapper > .book-wrapper {
+  body.view-in-course .content-wrapper > .book-wrapper {
     width: 1170px;
   }
 }
-body.view-incourse .content-wrapper > .book-wrapper > .navbar-header,
-body.view-incourse .content-wrapper > .book-wrapper > .navbar-collapse {
+body.view-in-course .content-wrapper > .book-wrapper > .navbar-header,
+body.view-in-course .content-wrapper > .book-wrapper > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
 }
 @media (min-width: 768px) {
-  body.view-incourse .content-wrapper > .book-wrapper > .navbar-header,
-  body.view-incourse .content-wrapper > .book-wrapper > .navbar-collapse {
+  body.view-in-course .content-wrapper > .book-wrapper > .navbar-header,
+  body.view-in-course .content-wrapper > .book-wrapper > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
   }
 }
-body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar {
+body.view-in-course .content-wrapper > .book-wrapper > .book-sidebar {
   width: 100%;
   height: auto;
   position: relative;
@@ -838,19 +838,19 @@ body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar {
   background-color: white;
 }
 @media (min-width: 992px) {
-  body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar {
+  body.view-in-course .content-wrapper > .book-wrapper > .book-sidebar {
     float: left;
     width: 25%;
   }
 }
 @media (min-width: 1200px) {
-  body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar {
+  body.view-in-course .content-wrapper > .book-wrapper > .book-sidebar {
     float: left;
     width: 25%;
   }
 }
 @media (max-width: 991px) {
-  body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar {
+  body.view-in-course .content-wrapper > .book-wrapper > .book-sidebar {
     width: 100%;
     height: 100%;
     border-radius: 0;
@@ -858,14 +858,14 @@ body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar {
     float: none;
   }
 }
-body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar ul#booknav {
+body.view-in-course .content-wrapper > .book-wrapper > .book-sidebar ul#booknav {
   font-size: 0.9em;
 }
-body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar ul#booknav a,
-body.view-incourse .content-wrapper > .book-wrapper > .book-sidebar ul#booknav a:hover {
+body.view-in-course .content-wrapper > .book-wrapper > .book-sidebar ul#booknav a,
+body.view-in-course .content-wrapper > .book-wrapper > .book-sidebar ul#booknav a:hover {
   color: #4392f1;
 }
-body.view-incourse .content-wrapper > .book-wrapper > .book {
+body.view-in-course .content-wrapper > .book-wrapper > .book {
   width: 100%;
   height: auto;
   position: relative;
@@ -883,19 +883,19 @@ body.view-incourse .content-wrapper > .book-wrapper > .book {
   background-color: #ffffff;
 }
 @media (min-width: 992px) {
-  body.view-incourse .content-wrapper > .book-wrapper > .book {
+  body.view-in-course .content-wrapper > .book-wrapper > .book {
     float: left;
     width: 75%;
   }
 }
 @media (min-width: 1200px) {
-  body.view-incourse .content-wrapper > .book-wrapper > .book {
+  body.view-in-course .content-wrapper > .book-wrapper > .book {
     float: left;
     width: 75%;
   }
 }
 @media (max-width: 991px) {
-  body.view-incourse .content-wrapper > .book-wrapper > .book {
+  body.view-in-course .content-wrapper > .book-wrapper > .book {
     width: auto;
     height: auto;
     border-radius: 0;
