@@ -1,16 +1,42 @@
 > .wiki-wrapper {
-    padding: 0;
-
-    header {
-        box-sizing: content-box;
+  padding: 0;
+  header {
+    box-sizing: content-box;
+    .add-article-btn {
+      .ionisx-btn(@white, @color-primary);
     }
-
-    .article-functions {
-        ul.nav {
-            li {
-                float: none;
-                margin-bottom: 0;
-            }
+  }
+  .article-functions {
+    ul.nav {
+      li {
+        float: none;
+        margin-bottom: 0;
+        a {
+          border: 0 none;
         }
+      }
     }
+  }
+  .article-wrapper {
+    .form-horizontal {
+      .control-label {
+        text-align: left;
+      }
+
+    }
+    #hint_id_content.help-block {
+      top: 0;
+    }
+  }
+  .form-actions { 
+    .btn {
+      .ionisx-btn(@color-primary, @color-background);
+    }
+    .btn.btn-primary {
+      .ionisx-btn(@white, @color-primary);
+    }
+    .btn.btn-danger {
+      .ionisx-btn(@white, @color-warning);
+    }
+  }
 }

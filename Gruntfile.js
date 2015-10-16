@@ -97,7 +97,8 @@ module.exports = function (grunt) {
         cssmin: {
             theme: {
                 options: {
-                    report: 'min'
+                    report: 'min',
+                    sourceMap: true
                 },
                 files: [{
                     expand: true,
@@ -146,7 +147,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'less',
         'autoprefixer',
-        // 'cssmin',
+        'cssmin',
         'bless',
         'imagemin',
         'copy'
