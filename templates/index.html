@@ -25,24 +25,14 @@ from microsite_configuration import microsite
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
-              <h2>Digital Service Contracting Professional Training<br/>and Development Program</h2>
-              <h1>Learning Portal Demonstration</h1>
+              <h2>Program Portal</h2>
+              <h1>Digital Acquisition Pilot</h1>
           % endif
         </hgroup>
         <hgroup class="icf-header-notice">
-          <h3>Notice: Course registration closes on 9/28</h3>
+          <h3>"Tell me and I forget, teach me and I may remember, involve me and I learn."<br><em>- Benjamin Franklin</em>
+          </h3>
         </hgroup>
-        % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
-          <div class="course-search">
-            <form method="get" action="/courses">
-              <input class="search-input" name="search_query" type="text" placeholder="${_("Search for a course")}"></input>
-              <button class="search-button" type="submit">
-                <i class="icon fa fa-search" aria-hidden="true"></i>
-              </button>
-            </form>
-          </div>
-        % endif
-
       </div>
 
       % if show_homepage_promo_video:
@@ -55,14 +45,7 @@ from microsite_configuration import microsite
     </div>
 
   </header>
-  <nav class="icf-program-nav">
-    <ul>
-      <li><a href="#">Schedule</a></li>
-      <li><a href="#">Discussion Boards</a></li>
-      <li><a href="#">Additional Resources</a></li>
-      <li><a href="#">Individual Development Plan</a></li>
-    </ul>
-  </nav>
+
   <section class="courses-container">
     <section class="highlighted-courses">
 
