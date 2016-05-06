@@ -1,0 +1,182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'grunt', '0.4.5' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt', null ]
+7 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'grunt',
+8 verbose parsed url   path: 'grunt',
+8 verbose parsed url   href: 'grunt' }
+9 verbose cache add [ '0.4.5', null ]
+10 verbose cache add name=undefined spec="0.4.5" args=["0.4.5",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '0.4.5',
+11 verbose parsed url   path: '0.4.5',
+11 verbose parsed url   href: '0.4.5' }
+12 silly lockFile 20ff3fd8-grunt grunt
+13 verbose lock grunt /edx/app/edxapp/.npm/20ff3fd8-grunt.lock
+14 silly lockFile 8c1ebe4a-0-4-5 0.4.5
+15 verbose lock 0.4.5 /edx/app/edxapp/.npm/8c1ebe4a-0-4-5.lock
+16 silly lockFile 20ff3fd8-grunt grunt
+17 silly lockFile 20ff3fd8-grunt grunt
+18 silly lockFile 8c1ebe4a-0-4-5 0.4.5
+19 silly lockFile 8c1ebe4a-0-4-5 0.4.5
+20 verbose addNamed [ 'grunt', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile 55f1ff24-grunt grunt@
+23 verbose lock grunt@ /edx/app/edxapp/.npm/55f1ff24-grunt.lock
+24 verbose addNamed [ '0.4.5', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 9e0cb4fe-0-4-5 0.4.5@
+27 verbose lock 0.4.5@ /edx/app/edxapp/.npm/9e0cb4fe-0-4-5.lock
+28 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+29 silly addNameRange { name: '0.4.5', range: '*', hasData: false }
+30 verbose request where is /0.4.5
+31 verbose request registry http://registry.npmjs.org/
+32 verbose request id b0bd19cb4cde10f4
+33 verbose url raw /0.4.5
+34 verbose url resolving [ 'http://registry.npmjs.org/', './0.4.5' ]
+35 verbose url resolved http://registry.npmjs.org/0.4.5
+36 verbose request where is http://registry.npmjs.org/0.4.5
+37 info trying registry request attempt 1 at 20:51:30
+38 http GET http://registry.npmjs.org/0.4.5
+39 verbose request where is /grunt
+40 verbose request registry http://registry.npmjs.org/
+41 verbose url raw /grunt
+42 verbose url resolving [ 'http://registry.npmjs.org/', './grunt' ]
+43 verbose url resolved http://registry.npmjs.org/grunt
+44 verbose request where is http://registry.npmjs.org/grunt
+45 info trying registry request attempt 1 at 20:51:30
+46 verbose etag "ECA90YDBLSEMSYL4NLY6V6W9Z"
+47 http GET http://registry.npmjs.org/grunt
+48 http 304 http://registry.npmjs.org/grunt
+49 silly registry.get cb [ 304,
+49 silly registry.get   { date: 'Thu, 05 May 2016 20:51:31 GMT',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     'cache-control': 'max-age=300',
+49 silly registry.get     etag: '"ECA90YDBLSEMSYL4NLY6V6W9Z"',
+49 silly registry.get     age: '0',
+49 silly registry.get     connection: 'keep-alive',
+49 silly registry.get     'x-served-by': 'cache-atl6250-ATL',
+49 silly registry.get     'x-cache': 'HIT',
+49 silly registry.get     'x-cache-hits': '1',
+49 silly registry.get     'x-timer': 'S1462481491.026347,VS0,VE80',
+49 silly registry.get     vary: 'Accept-Encoding' } ]
+50 verbose etag http://registry.npmjs.org/grunt from cache
+51 http 404 http://registry.npmjs.org/0.4.5
+52 silly registry.get cb [ 404,
+52 silly registry.get   { 'content-type': 'application/json',
+52 silly registry.get     'cache-control': 'max-age=0',
+52 silly registry.get     'content-length': '2',
+52 silly registry.get     'accept-ranges': 'bytes',
+52 silly registry.get     date: 'Thu, 05 May 2016 20:51:31 GMT',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     age: '0',
+52 silly registry.get     connection: 'keep-alive',
+52 silly registry.get     'x-served-by': 'cache-atl6238-ATL',
+52 silly registry.get     'x-cache': 'MISS',
+52 silly registry.get     'x-cache-hits': '0',
+52 silly registry.get     'x-timer': 'S1462481491.022789,VS0,VE93',
+52 silly registry.get     vary: 'Accept-Encoding' } ]
+53 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+54 silly addNameRange versions [ 'grunt',
+54 silly addNameRange   [ '0.1.0',
+54 silly addNameRange     '0.1.1',
+54 silly addNameRange     '0.1.2',
+54 silly addNameRange     '0.2.0',
+54 silly addNameRange     '0.2.1',
+54 silly addNameRange     '0.2.2',
+54 silly addNameRange     '0.2.3',
+54 silly addNameRange     '0.2.4',
+54 silly addNameRange     '0.2.5',
+54 silly addNameRange     '0.2.6',
+54 silly addNameRange     '0.2.7',
+54 silly addNameRange     '0.2.8',
+54 silly addNameRange     '0.2.9',
+54 silly addNameRange     '0.2.10',
+54 silly addNameRange     '0.2.11',
+54 silly addNameRange     '0.2.12',
+54 silly addNameRange     '0.2.13',
+54 silly addNameRange     '0.2.14',
+54 silly addNameRange     '0.2.15',
+54 silly addNameRange     '0.3.0',
+54 silly addNameRange     '0.3.1',
+54 silly addNameRange     '0.3.2',
+54 silly addNameRange     '0.3.3',
+54 silly addNameRange     '0.3.4',
+54 silly addNameRange     '0.3.5',
+54 silly addNameRange     '0.3.6',
+54 silly addNameRange     '0.3.7',
+54 silly addNameRange     '0.3.8',
+54 silly addNameRange     '0.3.9',
+54 silly addNameRange     '0.3.10',
+54 silly addNameRange     '0.3.11',
+54 silly addNameRange     '0.3.12',
+54 silly addNameRange     '0.3.13',
+54 silly addNameRange     '0.3.14',
+54 silly addNameRange     '0.3.15',
+54 silly addNameRange     '0.3.16',
+54 silly addNameRange     '0.3.17',
+54 silly addNameRange     '0.4.0',
+54 silly addNameRange     '0.4.1',
+54 silly addNameRange     '0.4.2',
+54 silly addNameRange     '0.4.3',
+54 silly addNameRange     '0.4.4',
+54 silly addNameRange     '0.4.5',
+54 silly addNameRange     '1.0.0-rc1',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '0.3.13-a',
+54 silly addNameRange     '0.4.0-a',
+54 silly addNameRange     '0.4.0-rc1',
+54 silly addNameRange     '0.4.0-rc2',
+54 silly addNameRange     '0.4.0-rc3',
+54 silly addNameRange     '0.4.0-rc4',
+54 silly addNameRange     '0.4.0-rc5',
+54 silly addNameRange     '0.4.0-rc6',
+54 silly addNameRange     '0.4.0-rc7',
+54 silly addNameRange     '0.4.0-rc8' ] ]
+55 verbose addNamed [ 'grunt', '1.0.1' ]
+56 verbose addNamed [ '1.0.1', '1.0.1' ]
+57 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+58 verbose lock grunt@1.0.1 /edx/app/edxapp/.npm/75468da5-grunt-1-0-1.lock
+59 silly lockFile 9e0cb4fe-0-4-5 0.4.5@
+60 silly lockFile 9e0cb4fe-0-4-5 0.4.5@
+61 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+62 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+63 silly lockFile 55f1ff24-grunt grunt@
+64 silly lockFile 55f1ff24-grunt grunt@
+65 error 404 Not Found
+65 error 404
+65 error 404 '0.4.5' is not in the npm registry.
+65 error 404 You should bug the author to publish it
+65 error 404 It was specified as a dependency of 'edx-theme'
+65 error 404
+65 error 404 Note that you can also install from a
+65 error 404 tarball, folder, or http url, or git url.
+66 error System Linux 3.2.0-101-virtual
+67 error command "/usr/bin/node" "/usr/bin/npm" "install" "grunt" "0.4.5"
+68 error cwd /edx/app/edxapp/themes/ionisx
+69 error node -v v0.10.37
+70 error npm -v 1.4.28
+71 error code E404
+72 verbose exit [ 1, true ]
